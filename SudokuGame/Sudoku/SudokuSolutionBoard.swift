@@ -1,15 +1,15 @@
 //
-//  SudokuGame.swift
+//  SudokuSolutionBoard.swift
 //  SudokuGame
 //
-//  Created by Andreas Gantner on 22.11.19.
-//  Last edit by Andreas Gantner on 27.11.19.
+//  Created by Andreas Gantner on 22.11.19
+//  Last edit by Andreas Gantner on 27.11.19
 //  Copyright © 2019 GantnerProjects. All rights reserved.
 //
 
 import Foundation;
 
-public class SudokuGame {
+public class SudokuSolutionBoard {
     private var sudokuBoard: [[Int]] = Array(repeating: Array(repeating: 0, count: 9), count: 9);
     
     public init() {

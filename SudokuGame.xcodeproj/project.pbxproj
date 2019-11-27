@@ -8,8 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		E156DA1323868E8B0066DF94 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E156DA1223868E8B0066DF94 /* main.swift */; };
-		E156DA1A2387DCE50066DF94 /* SudokuGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = E156DA192387DCE50066DF94 /* SudokuGame.swift */; };
 		E1BFAAC2238E801C00D3722A /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BFAAC1238E801C00D3722A /* Game.swift */; };
+		E1BFAAC7238E9A7600D3722A /* SudokuSolutionBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BFAAC6238E9A7600D3722A /* SudokuSolutionBoard.swift */; };
+		E1BFAAC9238EC42A00D3722A /* SudokuGameBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BFAAC8238EC42A00D3722A /* SudokuGameBoard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,8 +28,9 @@
 /* Begin PBXFileReference section */
 		E156DA0F23868E8B0066DF94 /* SudokuGame */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SudokuGame; sourceTree = BUILT_PRODUCTS_DIR; };
 		E156DA1223868E8B0066DF94 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		E156DA192387DCE50066DF94 /* SudokuGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SudokuGame.swift; sourceTree = "<group>"; };
 		E1BFAAC1238E801C00D3722A /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		E1BFAAC6238E9A7600D3722A /* SudokuSolutionBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SudokuSolutionBoard.swift; sourceTree = "<group>"; };
+		E1BFAAC8238EC42A00D3722A /* SudokuGameBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SudokuGameBoard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +73,8 @@
 		E1BFAAC3238E802700D3722A /* Sudoku */ = {
 			isa = PBXGroup;
 			children = (
-				E156DA192387DCE50066DF94 /* SudokuGame.swift */,
+				E1BFAAC6238E9A7600D3722A /* SudokuSolutionBoard.swift */,
+				E1BFAAC8238EC42A00D3722A /* SudokuGameBoard.swift */,
 			);
 			path = Sudoku;
 			sourceTree = "<group>";
@@ -135,8 +138,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E156DA1323868E8B0066DF94 /* main.swift in Sources */,
+				E1BFAAC9238EC42A00D3722A /* SudokuGameBoard.swift in Sources */,
+				E1BFAAC7238E9A7600D3722A /* SudokuSolutionBoard.swift in Sources */,
 				E1BFAAC2238E801C00D3722A /* Game.swift in Sources */,
-				E156DA1A2387DCE50066DF94 /* SudokuGame.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

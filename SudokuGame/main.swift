@@ -2,7 +2,7 @@
 //  main.swift
 //  SudokuGame
 //
-//  Created by Andreas Gantner on 21.11.19.
+//  Created by Andreas Gantner on 21.11.19
 //  Last edit by Andreas Gantner on 27.11.19
 //  Copyright © 2019 GantnerProjects. All rights reserved.
 //
@@ -24,8 +24,8 @@ private func timeElapsedInSecondsWhenRunningCode(operation: ()->()) -> Double {
 }
 
 printTimeElapsedWhenRunningCode(title:"creating a Sudoku") {
-    let game: SudokuGame = SudokuGame();
-    let debugBoard: [[Int]] = game.getBoard();
+    let sudokuBoard: SudokuSolutionBoard = SudokuSolutionBoard();
+    let debugBoard: [[Int]] = sudokuBoard.getBoard();
     var output: [String] = Array(repeating: "", count: 17);
     var i: Int = 0;
     var boardLine: Int = 0;
