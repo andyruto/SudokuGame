@@ -11,6 +11,7 @@
 		E1BFAAC2238E801C00D3722A /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BFAAC1238E801C00D3722A /* Game.swift */; };
 		E1BFAAC7238E9A7600D3722A /* SudokuSolutionBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BFAAC6238E9A7600D3722A /* SudokuSolutionBoard.swift */; };
 		E1BFAAC9238EC42A00D3722A /* SudokuGameBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BFAAC8238EC42A00D3722A /* SudokuGameBoard.swift */; };
+		E1BFAACB2393CEDE00D3722A /* SudokuSolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BFAACA2393CEDE00D3722A /* SudokuSolver.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,7 @@
 		E1BFAAC1238E801C00D3722A /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		E1BFAAC6238E9A7600D3722A /* SudokuSolutionBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SudokuSolutionBoard.swift; sourceTree = "<group>"; };
 		E1BFAAC8238EC42A00D3722A /* SudokuGameBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SudokuGameBoard.swift; sourceTree = "<group>"; };
+		E1BFAACA2393CEDE00D3722A /* SudokuSolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SudokuSolver.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 			children = (
 				E1BFAAC6238E9A7600D3722A /* SudokuSolutionBoard.swift */,
 				E1BFAAC8238EC42A00D3722A /* SudokuGameBoard.swift */,
+				E1BFAACA2393CEDE00D3722A /* SudokuSolver.swift */,
 			);
 			path = Sudoku;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1BFAACB2393CEDE00D3722A /* SudokuSolver.swift in Sources */,
 				E156DA1323868E8B0066DF94 /* main.swift in Sources */,
 				E1BFAAC9238EC42A00D3722A /* SudokuGameBoard.swift in Sources */,
 				E1BFAAC7238E9A7600D3722A /* SudokuSolutionBoard.swift in Sources */,

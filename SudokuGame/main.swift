@@ -25,7 +25,8 @@ private func timeElapsedInSecondsWhenRunningCode(operation: ()->()) -> Double {
 
 printTimeElapsedWhenRunningCode(title:"creating a Sudoku") {
     let sudokuBoard: SudokuSolutionBoard = SudokuSolutionBoard();
-    let debugBoard: [[Int]] = sudokuBoard.getBoard();
+    let sudokuGameBoard: SudokuGameBoard = SudokuGameBoard(template: sudokuBoard.getBoard());
+    let debugBoard: [[Int]] = sudokuGameBoard.getGameBoard();
     var output: [String] = Array(repeating: "", count: 17);
     var i: Int = 0;
     var boardLine: Int = 0;
